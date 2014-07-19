@@ -422,3 +422,10 @@ spectrum canvas {
 .slide-right-animation.ng-leave.ng-leave-active {
   left: 100%;
 }
+        .vi {
+            position: absolute;
+            left: 10px;
+            top: 350px;
+            width: 496px;
+            height: 375px;
+        }

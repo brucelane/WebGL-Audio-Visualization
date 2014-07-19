@@ -4,7 +4,7 @@ angular.module('audioVizApp')
   .controller('PlaylistController', function ($scope, PlaylistService) {
     $scope.service = PlaylistService;
 
-    PlaylistService.load(12590847).then(function() {
+    PlaylistService.load(2864791).then(function() {
       $scope.tracks = PlaylistService.tracks();
       $scope.setTrack(0);
     });
