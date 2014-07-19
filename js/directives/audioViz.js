@@ -19,7 +19,7 @@ angular.module('audioVizApp')
         scope.render(renderer, d);
 
         // update stats
-        stats.update();
+        //stats.update();
       };
 
       if( Detector.webgl ){
@@ -39,11 +39,11 @@ angular.module('audioVizApp')
       element.append(renderer.domElement);
 
       // add Stats.js - https://github.com/mrdoob/stats.js
-      stats = new Stats();
+      /*stats = new Stats();
       stats.domElement.style.position = 'absolute';
       stats.domElement.style.top  = '0px';
       stats.domElement.style.left = '0px';
-      element.append( stats.domElement );
+      element.append( stats.domElement );*/
 
 
       // allow 'p' to make screenshot
